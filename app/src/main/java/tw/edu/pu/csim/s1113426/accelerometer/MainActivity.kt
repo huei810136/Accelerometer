@@ -210,7 +210,7 @@ fun SecondScreen(xTilt: Float, yTilt: Float, onBackToFirstScreen: () -> Unit) {
             contentDescription = "Penguin",
             modifier = Modifier
                 .padding(start = penguinPositionX.dp, top = penguinPositionY.dp)
-                .size(100.dp)
+                .size(200.dp)
         )
 
         // 顯示食物（Fish）
@@ -219,7 +219,7 @@ fun SecondScreen(xTilt: Float, yTilt: Float, onBackToFirstScreen: () -> Unit) {
             contentDescription = "Food",
             modifier = Modifier
                 .padding(start = foodPositionX.dp, top = foodPositionY.dp)
-                .size(50.dp)
+                .size(100.dp)
         )
     }
 }
