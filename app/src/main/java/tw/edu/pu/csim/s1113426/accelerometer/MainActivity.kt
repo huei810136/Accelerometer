@@ -95,7 +95,6 @@ LaunchedEffect(Unit) {
         SensorManager.SENSOR_DELAY_NORMAL
     )
 }
-
     Column (modifier = Modifier.fillMaxSize().background(Color.Green),
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
